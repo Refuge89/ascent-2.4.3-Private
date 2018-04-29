@@ -1,0 +1,9 @@
+ALTER TABLE creature_proto DROP COLUMN spell_flags;
+ALTER TABLE creature_proto DROP COLUMN spell1;
+ALTER TABLE creature_proto DROP COLUMN spell2;
+ALTER TABLE creature_proto DROP COLUMN spell3;
+ALTER TABLE creature_proto DROP COLUMN spell4;
+ALTER TABLE creature_proto DROP COLUMN spell5;
+ALTER TABLE playerpets DROP COLUMN reset_time;
+ALTER TABLE playerpets DROP COLUMN reset_cost;
+ALTER TABLE characters DROP COLUMN finisheddailies;
